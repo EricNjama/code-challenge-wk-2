@@ -4,7 +4,7 @@ function primeFind(num){
     return num.filter(x => {
 // Check if the elements are 1 or less that 1 since they are not prime numbers.
         if (x <= 1) return false;
-// Iterate through the elements from 2 to square root of the x using a for loop 
+// Iterate through the elements from 2 to the square root of x using a for loop 
         for (let i = 2; i <= Math.sqrt(x); i++) {
 // Checks for divisibility of x with i
             if (x % i === 0) return false;
