@@ -1,5 +1,5 @@
 // Create a function called primeFind that takes in an array as a parameter.
-function primeFind(num) {
+function primeFind(num){
 // The filter method is used to create a new array with the elements that pass the conditions.
     return num.filter(x => {
 // Check if the elements are 1 or less that 1 since they are not prime numbers.
