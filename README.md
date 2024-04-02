@@ -65,7 +65,7 @@ This is a function that efficiently filters through prime numbers from an array.
 
     }
 ```
-The filter method is then used to create a new array whereby iteration through each element is initiated. it filters out numbers less than 1 (they cannot be prime numbers) and for each remainder, checks divisibility by any number from 2 to the squareroot of the number. Divisible numbers are filtered out and the resultant array contains prime numbers only. 
+The filter method is then used to create a new array whereby iteration through each element is initiated. It filters out numbers less than 1 (they cannot be prime numbers) and for each remainder, checks divisibility by any number from 2 to the squareroot of the number. Divisible numbers are filtered out and the resultant array contains prime numbers only. 
 ```js
     return num.filter(x => {
         if (x <= 1) return false;
@@ -75,11 +75,13 @@ The filter method is then used to create a new array whereby iteration through e
         return true;
     });
 ```
-There then follows an illustrative example using the **num1**array to demostrate its functionality. 
+There then follows an illustrative example using the **num1** array to demostrate its functionality. 
 ```js
     let num1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
     console.log(primeFind(num1))
 ```
+## Live link
+``https://github.com/EricNjama/code-challenge-wk-2.git``
 ## Installation 
 There's really no installlation required. Just call the functions in your project.
 ## Technologies used
